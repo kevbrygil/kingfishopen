@@ -1,0 +1,13 @@
+header.masthead {
+  background: url(../img/bg-pattern.png),linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.device-mockup.kingfishopen.portrait.white>.device, .device-mockup.kingfishopen.white>.device {
+    background-image: url(../img-custom/LOGO_TORNEO_PESCA.png);
+}
+
+@media (min-width: 992px){
+  header.masthead .device-container {
+      max-width: initial;
+  }
+}
