@@ -6,8 +6,64 @@ header.masthead {
     background-image: url(../img-custom/LOGO_TORNEO_PESCA.png);
 }
 
+.header-content > .invitation{
+    background-image: url(../img-custom/LOGO_TORNEO_PESCA.png);
+}
+
 @media (min-width: 992px){
   header.masthead .device-container {
       max-width: initial;
   }
+}
+
+.container {
+    max-width: 100%;
+}
+.text-fishing-green{
+    color: #023a37;
+}
+.bg-fishing-green{
+    background-color: #023a37;
+}
+.bg-button-green{
+    /* background-color:    #023a37; */
+    border-color:  #fff;
+    background-image: linear-gradient(to right, #023a37, #024743, #02544f, #02615c, #026f69);
+    border-width: 3px;
+}
+a.bg-button-green:hover{
+    /* background-color:    #023a37; */
+    border-color:  #fff;
+    border-width: 2px;
+    background-image: linear-gradient(to right, #023a37, #023a37, #023a37, #023a37, #023a37);
+}
+
+.text-fishing-blue{
+    color: #000a63;
+}
+.bg-fishing-blue{
+    background-color: #000a63;
+}
+.bg-button-blue{
+    /* background-color:  #000a63; */
+    border-color:  #fff;
+    background-image: linear-gradient(to right, #000a63, #000e7d, #001298, #0116b4, #061ad1);
+    border-width: 3px;
+}
+a.bg-button-blue:hover{
+    border-color:  #fff;
+    border-width: 2px;
+    /* background-color:  #000a63; */
+    background-image: linear-gradient(to right, #000a63, #000a63, #000a63, #000a63, #000a63);
+}
+
+#mainNav .navbar-brand{
+    color: #023a37;
+    font-weight: bold;
+}
+
+@media (max-width: 991px){
+    header.masthead {
+        padding-top: 85px;
+    }
 }
