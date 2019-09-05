@@ -67,3 +67,43 @@ a.bg-button-blue:hover{
         padding-top: 85px;
     }
 }
+
+section.contact{
+  background-color: rgba(0,0,0,.5);
+  opacity: .9;
+}
+
+section.cta {
+    background-image: none;/*url(../img-custom/lista_patrocinadores.png);*/
+    padding: 118px 0;
+}
+
+/*section.cta .overlay {
+  background-color: #ffffff;
+  opacity: 0;
+}
+
+section.cta .cta-content{
+  bottom: 118px;
+}
+
+
+section.cta .cta-content h2{
+  max-width: 100%;
+}
+
+.cta .cta-content .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+/*section.contact .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
